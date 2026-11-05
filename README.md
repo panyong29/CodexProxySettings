@@ -13,7 +13,7 @@ A small Windows utility for setting Codex proxy variables and managing the ChatG
    - **V2Ray HTTP:** `http://127.0.0.1:10809`
 
    These are common defaults. Your client may use a different port; check its settings if the connection does not work.
-4. Click **Save**. The app updates `%USERPROFILE%\.codex\.env`.
+4. Click **Save**. The app edits the `.env` file at `%USERPROFILE%\.codex\.env` (for example, `C:\Users\YourName\.codex\.env`).
 5. Completely quit and reopen Codex so it loads the new settings.
 
 ## Buttons
@@ -73,7 +73,7 @@ python -m PyInstaller --noconfirm --onefile --windowed --name CodexProxySettings
    - **V2Ray HTTP：** `http://127.0.0.1:10809`
 
    这是常见默认端口。你的客户端可能使用其他端口；如果连接失败，请检查客户端设置。
-4. 点击**保存**。程序会更新 `%USERPROFILE%\.codex\.env`。
+4. 点击**保存**。程序修改的是 `.env` 文件，路径为 `%USERPROFILE%\.codex\.env`（例如 `C:\Users\你的用户名\.codex\.env`）。
 5. 完全退出并重新打开 Codex，让新设置生效。
 
 ## 按钮说明
