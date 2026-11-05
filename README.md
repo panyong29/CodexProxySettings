@@ -1,10 +1,10 @@
-# Codex Proxy GUI
+# CodexProxySettings
 
 A small Windows desktop utility for configuring Codex proxy settings and managing the ChatGPT desktop app.
 
 ## Getting started (for Windows beginners)
 
-1. Open the [latest release](https://github.com/panyong29/Codex_proxy_gui/releases/latest) and download `CodexProxySettings.exe`.
+1. Open the [latest release](https://github.com/panyong29/CodexProxySettings/releases/latest) and download `CodexProxySettings.exe`.
 2. Save the file somewhere easy to find, such as your Downloads folder, then double-click it to open the app.
 3. Start your proxy client first. Choose **Clash HTTP** (`http://127.0.0.1:7890`) or **V2Ray HTTP** (`http://127.0.0.1:10809`). These are common defaults; if your proxy client uses another port, select the address box and type the correct URL.
 4. Click **Save**. The app updates `%USERPROFILE%\.codex\.env`. Completely quit and reopen Codex for the change to take effect.
@@ -19,7 +19,7 @@ The **Close ChatGPT** button first asks the app to close normally. If ChatGPT re
 - `ProxyGui.cs` — C# source.
 - `codex_proxy_gui.py` — Python source.
 
-The C# executable is published on the [Releases page](https://github.com/panyong29/Codex_proxy_gui/releases).
+The C# executable is published on the [Releases page](https://github.com/panyong29/CodexProxySettings/releases).
 
 ## Build from source
 
@@ -38,13 +38,13 @@ python -m PyInstaller --noconfirm --onefile --windowed --name CodexProxySettings
 
 ---
 
-# Codex Proxy GUI（中文说明）
+# CodexProxySettings（中文说明）
 
 这是一个 Windows 桌面小工具，用来设置 Codex 代理并管理 ChatGPT 桌面程序。
 
 ## 新手使用步骤
 
-1. 打开[最新发布页](https://github.com/panyong29/Codex_proxy_gui/releases/latest)，下载 `CodexProxySettings.exe`。
+1. 打开[最新发布页](https://github.com/panyong29/CodexProxySettings/releases/latest)，下载 `CodexProxySettings.exe`。
 2. 把文件保存到容易找到的位置（例如“下载”文件夹），双击运行。
 3. 先启动你的代理客户端，再选择 **Clash HTTP**（`http://127.0.0.1:7890`）或 **V2Ray HTTP**（`http://127.0.0.1:10809`）。这两个是常见默认端口；如果客户端使用其他端口，可直接在代理地址框中输入完整地址。
 4. 点击**保存**。程序会修改 `%USERPROFILE%\.codex\.env`。请完全退出并重新打开 Codex，设置才会生效。
@@ -59,7 +59,7 @@ python -m PyInstaller --noconfirm --onefile --windowed --name CodexProxySettings
 - `ProxyGui.cs`：C# 源码。
 - `codex_proxy_gui.py`：Python 源码。
 
-C# exe 发布在 [GitHub Releases 页面](https://github.com/panyong29/Codex_proxy_gui/releases)。
+C# exe 发布在 [GitHub Releases 页面](https://github.com/panyong29/CodexProxySettings/releases)。
 
 ## 从源码构建
 
