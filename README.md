@@ -2,6 +2,8 @@
 
 A small Windows utility for setting Codex proxy variables and managing the ChatGPT desktop app.
 
+![CodexProxySettings GUI](assets/gui-screenshot.png)
+
 [Download the native Windows app](https://github.com/panyong29/CodexProxySettings/releases/latest) · [View all releases](https://github.com/panyong29/CodexProxySettings/releases)
 
 ## Quick start
